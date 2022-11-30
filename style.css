@@ -59,16 +59,16 @@ body {
 .social-link {
   width: 20px;
   height: 25px;
-  background-image: url('/images/1438557260_inst_4.png');
+  background-image: url('images/1438557260_inst_4.png');
   background-position: top center;
 }
 
 .social-link:nth-of-type(2) {
-  background-image: url('/images/1438557245_ab_4.png');
+  background-image: url('images/1438557245_ab_4.png');
 }
 
 .social-link:last-of-type {
-  background-image: url('/images/1438423986_vk_3.png');
+  background-image: url('images/1438423986_vk_3.png');
 }
 
 .tel {
@@ -85,7 +85,7 @@ body {
   height: 100vh;
   width: 100%;
   background-color: #000;
-  background-image: url('/images/bg-main.png');
+  background-image: url('images/bg-main.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 43% 0;

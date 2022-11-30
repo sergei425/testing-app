@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+.row {
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+}
+
+body {
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #000;
+  background-color: #000;
+}
+
+.header {
+  margin-bottom: -88px;
+  background-color: rgb(8, 8, 8, 0.1);
+}
+
+.col-2.text-start.tel {
+  padding-right: 0;
+}
+
+.navbar {
+  padding: 0;
+  margin-right: auto;
+}
+
+.navbar-nav {
+  margin-right: auto;
+}
+
+.nav-link {
+  padding: 0;
+  text-transform: uppercase;
+  color: #fff;;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 20px;
+}
+.navbar-expand-lg .navbar-nav .nav-link:first-of-type {
+  padding-left: 0;
+}
+
+.social-link {
+  width: 20px;
+  height: 25px;
+  background-image: url('/images/1438557260_inst_4.png');
+  background-position: top center;
+}
+
+.social-link:nth-of-type(2) {
+  background-image: url('/images/1438557245_ab_4.png');
+}
+
+.social-link:last-of-type {
+  background-image: url('/images/1438423986_vk_3.png');
+}
+
+.tel {
+  text-align: end;
+}
+
+.tel-link {
+  display: block;
+  color: #fff;
+}
+
+.intro {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background-color: #000;
+  background-image: url('/images/bg-main.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 43% 0;
+}
+
+.intro-wrap {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.intro-logo {
+  margin-bottom: 30px;
+}
+
+.intro-subtitle {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.intro-subtitle > span {
+  display: block;
+  color: brown;
+  text-decoration: underline;
+}
+
+.help {
+  position: relative;
+  overflow: hidden;
+  padding-top: 40px;
+  background-color: #fff;
+}
+
+.help::before {
+  position: absolute;
+  width: 20%;
+  text-align: center;
+  left: -60px;
+  top: 40px;
+  content: "Новинка";
+  display: block;
+  padding: 3px 0;
+  background-color: crimson;
+  color: #fff;
+  transform: rotate(-45deg);
+}
+
+@media (max-width: 991.98px) {
+  .help::before {
+    display: none;
+  }
+}
+
+.help-title {
+  font-family: "Oranienbaum";
+}
+
+.help-subtitle {
+  width: 71%;
+  margin: 0 auto;
+  text-transform: uppercase;
+  line-height: 1.7rem;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.happen {
+  padding-top: 30px;
+  background-color: #fff;
+}
+
+.happen-wrap {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.happen-title {
+  font-family: "Oranienbaum";
+  margin-bottom: 45px;
+}
+
+.happen-text span {
+  display: block;
+  margin: 15px 35px 25px;
+}
+
+.happen-table {
+  font-weight: bold;
+  background-color: rgb(221, 221, 29);
+  border-color: rgb(194, 194, 65);
+}
+
+.happen-table thead, .price {
+  background-color: rgb(194, 194, 65);
+}
+
+.happen-table th {
+  text-transform: uppercase;
+}
+
+.happen-table th + th, .happen-table td + td {
+  text-align: center;
+  width: calc(50% / 3);
+}
+
+.check span {
+  display: block;
+}
+
+.currency span {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 22px;
+  height: 22px;
+  border: 1px solid #000;
+}
+
+.services {
+  padding-top: 40px;
+  background-color: #fff;
+}
+
+.services-title {
+  font-family: "Oranienbaum";
+  margin-bottom: 20px;
+}
+
+.services .card:hover {
+  box-shadow: 0px 0px 17px 0px rgba(34, 60, 80, 0.2);;
+}
+
+.card-body > span {
+  display: block;
+  text-align: center;
+}
+
+.card-description > span {
+  display: block;
+  margin-bottom: 7px;
+}
+
+.card-description > span:nth-of-type(odd) {
+  opacity: 0.6;
+}
+
+.card-description > span:nth-of-type(even) {
+  font-weight: bold;
+}
+
+.prices {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.old-price {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  opacity: 0.6;
+}
+
+.old-price::before {
+  position: absolute;
+  top: 50%;
+  display: inline-block;
+  content: '';
+  width: 50px;
+  height: 2px;
+  background-color: crimson;
+  transform: rotate(-15deg);
+}
+
+.actions {
+  padding-top: 70px;
+  background-color: #fff;
+  padding-bottom: 40px;
+  margin-bottom: 30px;
+}
+
+.actions-wrap {
+  width: 65%;
+  margin: 0 auto;
+}
+
+.actions-title {
+  font-family: "Oranienbaum";
+}
+
+.action-item {
+  margin-bottom: 45px;
+}
+
+a[data-fancybox] img {
+  cursor: zoom-in;
+}
+
+.footer-btn {
+  margin: 0 auto;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+
